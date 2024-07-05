@@ -1,0 +1,26 @@
+# Ignore specific PHP files in Controllers
+app/Http/Controllers/AdminController.php
+app/Http/Controllers/ProductController.php
+app/Http/Controllers/StadiumController.php
+
+# Ignore specific PHP files in Models
+app/Models/Product.php
+app/Models/Stadium.php
+
+# Ignore specific migration files
+database/migrations/2024_07_04_163444_create_stadiums_table.php
+database/migrations/2024_07_05_060806_create_cricproduct_table.php
+
+# Ignore the entire admin directory in views
+resources/views/admin/add_blog.blade.php
+resources/views/admin/add_iconic.blade.php
+resources/views/admin/add_player.blade.php
+resources/views/admin/add_product.blade.php
+resources/views/admin/add_stadium.blade.php
+resources/views/admin/admindashboard.blade.php
+resources/views/admin/admindashboard.blade.php
+resources/views/admin/delete.blade.php
+resources/views/admin/demo.blade.php
+resources/views/admin/form.blade.php
+resources/views/admin/success.blade.php
+
